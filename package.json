@@ -163,5 +163,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-compressor": "github:imraj/react-native-compressor"
   }
 }
