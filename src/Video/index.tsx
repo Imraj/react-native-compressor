@@ -51,7 +51,7 @@ export declare type FileSystemUploadOptions = (
   sessionType?: FileSystemSessionType;
 };
 
-export type VideoCompressorType = {
+export declare type VideoCompressorType = {
   compress(
     fileUrl: string,
     options?: videoCompresssionType,
