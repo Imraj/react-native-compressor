@@ -48,6 +48,7 @@ type ImageType = {
 
 const Image: ImageType = {
   compress: (value, options) => {
+    console.log("Image::compress::value :", value, options)
     if (!value) {
       throw new Error(
         'Compression value is empty, please provide a value for compression.'
