@@ -1,4 +1,4 @@
-import Video, { VideoCompressorType, backgroundUpload } from './Video';
+import Video, { backgroundUpload } from './Video';
 import Audio from './Audio';
 import Image from './Image';
 import {
@@ -15,7 +15,7 @@ export {
   Image,
   backgroundUpload,
   //type
-  VideoCompressorType,
+  //VideoCompressorType,
   getDetails,
   uuidv4,
   generateFilePath,
